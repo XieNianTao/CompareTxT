@@ -49,7 +49,7 @@ public class ReadTxT {
 			Hashtable<String, Integer> words1 = txTModule.GetTxTWords(file1);
 			Hashtable<String, Integer> words2 = txTModule.GetTxTWords(file2);
 			/*
-			 * 1、求两文件单词的并集。 2、求两文件单词的交集。
+			 * 1、求两文件单词的并集。 2、求两文件单词的交集.
 			 */
 			// 3、假设单词wd，文件A，文件B, 求A，B文件中各自单词总数。
 			// wd∈A且wd ∉B的单词占A文件的百分比 和 wd∈B且wd∉A的单词占B文件的百分比
